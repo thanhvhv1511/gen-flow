@@ -6,7 +6,7 @@ const fs = require('fs');
 // CẤU HÌNH CHUNG
 // ==========================================
 const TEST_IMAGE = path.resolve(__dirname, 'sample.jpeg'); 
-const PROMPT_FILE = path.resolve(__dirname, 'prompt-img.txt');
+const PROMPT_FILE = path.resolve(__dirname, 'prompt/current_prompt_img.txt');
 const LOOP_COUNT = 3; // Số lần chạy lặp
 
 // ================= CẤU HÌNH DOWNLOAD =================

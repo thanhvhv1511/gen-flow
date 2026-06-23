@@ -32,6 +32,12 @@ async function handleProjectNavigation(page) {
  * Đính kèm hình ảnh từ máy tính cục bộ lên workspace
  */
 async function uploadInitialImage(page) {
+    try {
+        // Giải phóng không gian, đóng các menu dropdown còn kẹt
+        await page.keyboard.press('Escape');
+        await page.waitForTimeout(500); 
+    } catch (e) {}
+
     console.log('👉 1. Đang mở menu và đính kèm ảnh...');
     const plusBtn = page.locator('button:has(i:text-is("add_2"))').first();
     await plusBtn.waitFor({ state: 'visible', timeout: 5000 });
@@ -45,6 +51,7 @@ async function uploadInitialImage(page) {
     await fileChooser.setFiles(config.TEST_IMAGE);
     console.log(`   ⏳ Đợi ${config.DELAY_LONG / 1000}s để tệp tin ảnh load xong...`);
     await page.waitForTimeout(config.DELAY_LONG);
+    await page.keyboard.press('Escape');
 }
 
 /**
@@ -76,7 +83,7 @@ async function configureAndFillImagePrompt(page, promptText) {
     await page.waitForTimeout(100);
 
     console.log('👉 Chọn số lượng 1x...');
-    await menuContainer.locator('button[role="tab"]:text-is("1x")').first().click();
+    await menuContainer.locator('button[role="tab"]:text-is("x4")').first().click();
     await page.waitForTimeout(100);
 
     console.log(`👉 Kiểm tra và chọn mô hình: ${config.TARGET_MODEL}...`);
@@ -100,15 +107,27 @@ async function configureAndFillImagePrompt(page, promptText) {
  * Định vị thẻ Tile mới nhất ở index 0 và kích hoạt hành động "Thêm vào câu lệnh"
  */
 async function addLatestTileToPrompt(page) {
+    try {
+        // Giải phóng không gian, đóng các menu dropdown còn kẹt
+        await page.keyboard.press('Escape');
+        await page.keyboard.press('Escape');
+        await page.waitForTimeout(500); 
+    } catch (e) {}
     console.log('👉 Đang giám sát ô phần tử mới nhất để Thêm vào câu lệnh...');
     const tileBoxPrompt = page.locator('div[data-testid="virtuoso-item-list"] > div[data-item-index="0"] div[data-tile-id]').first();
     const imgPrompt = tileBoxPrompt.locator('img[alt="Hình ảnh được tạo"]');
     
     await imgPrompt.waitFor({ state: 'visible', timeout: 120000 });
     await page.waitForTimeout(config.DELAY_SHORT); 
+
+    await tileBoxPrompt.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(500);
+    await tileBoxPrompt.hover();
+    await page.waitForTimeout(500);
     await imgPrompt.hover({ force: true });
     await page.waitForTimeout(config.DELAY_SHORT); 
 
+    console.log('   Đang định vị nút 3 chấm...');
     const visibleToolbar = page.locator('div[role="toolbar"]').filter({ state: 'visible' }).first();
     const threeDotsBtn = visibleToolbar.locator('button[id^="radix-"]').filter({ has: page.locator('i:text-is("more_vert")') }).first();
     
