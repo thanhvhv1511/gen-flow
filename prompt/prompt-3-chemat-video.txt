@@ -1,0 +1,39 @@
+Tạo video: Sử dụng 2 ảnh tham chiếu được cung cấp làm nguồn tham khảo duy nhất cho nhân vật.
+Ảnh 1: góc chính diện, khung hình từ ngực trở xuống.  
+Ảnh 2: góc nghiêng, khung hình từ ngực trở xuống.
+
+QUAN TRỌNG NHẤT:
+- Toàn bộ video chỉ hiển thị từ ngực trở xuống.
+- Khuôn mặt không được xuất hiện trong bất kỳ khung hình nào.
+- Không hiển thị mắt, mũi, miệng hoặc toàn bộ đầu.
+- Luôn giữ phần trên của khung hình cắt ngang ngực.
+- Camera không được di chuyển lên phía cổ hoặc khuôn mặt.
+- Mọi góc quay phải duy trì framing từ ngực đến chân.
+- Nếu nhân vật thay đổi tư thế, camera phải tự động giữ khuôn mặt nằm ngoài khung hình.
+
+STRICT IDENTITY LOCK:
+- Giữ nguyên chính xác vóc dáng, tỷ lệ cơ thể, vòng eo, hông, chân, màu da trắng sáng tự nhiên của cô gái Việt Nam trong ảnh tham chiếu.
+- Không thay đổi thiết kế trang phục.
+- Không thay đổi tỷ lệ cơ thể.
+- Không thay đổi kiểu tóc hoặc màu tóc.
+- Không thêm phụ kiện mới.
+- Chỉ có một người duy nhất xuất hiện trong video.
+
+VIDEO STYLE:
+- Photorealistic.
+- Ultra realistic.
+- High detail.
+- Natural fashion showcase.
+- Soft lighting.
+- Realistic body proportions.
+- Smooth cinematic camera movement.
+- Vertical 9:16.
+- No camera shake.
+- No flickering.
+- No body distortion.
+- No clothing changes.
+
+[0–2.5 GIÂY] {{SEGMENT_1}}
+[2.5–5 GIÂY] {{SEGMENT_2}}
+[5–7.5 GIÂY] {{SEGMENT_3}}
+[7.5–10 GIÂY] {{SEGMENT_4}}

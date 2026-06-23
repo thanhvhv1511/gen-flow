@@ -1,0 +1,9 @@
+Tôi muốn thay đổi góc quay và thêm chuyển động zoom tự nhiên để các video sinh ra không quá giống nhau, tránh bị hệ thống quét trùng lặp.
+
+[0–2.5 GIÂY] {{SEGMENT_1}}
+[2.5–5 GIÂY] {{SEGMENT_2}}
+[5–7.5 GIÂY] {{SEGMENT_3}}
+[7.5–10 GIÂY] {{SEGMENT_4}}
+
+KHÓA TÓC (RẤT QUAN TRỌNG)
+Giữ nguyên chính xác kiểu tóc, độ dài tóc, độ dày tóc, ngôi tóc và vị trí tóc như trong ảnh tham chiếu trong suốt toàn bộ video. Tóc phải luôn nằm phía sau vai và sau lưng giống ảnh gốc. Chuyển động của tóc phải rất nhẹ và tự nhiên theo chuyển động cơ thể. Không có gió, không có quạt, không có chuyển động tóc mạnh.

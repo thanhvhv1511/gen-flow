@@ -1,0 +1,21 @@
+# Output folders
+output_images/
+output_videos/
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Temporary files
+*.tmp
+*.log

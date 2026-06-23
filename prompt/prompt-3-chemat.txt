@@ -1,0 +1,17 @@
+Thay đổi background như sau, còn mẫu vẫn như nguyên như cũ, chụp từ ngực trở xuống, ko lộ bàn chân
+
+BACKGROUND:
+• {{SELECTED_BACKGROUND}}
+POSE:
+• Tư thế chân: {{SELECTED_LEG}}
+• Thay đổi tư thế tay
+• Thay đổi dáng đứng 1 chút
+
+CAMERA FRAMING:
+
+* Frame from chest down.
+* Focus on outfit and body movement.
+* Original model remains unchanged.
+* Original clothing remains unchanged.
+* Face is not the focus.
+* Outfit remains the main subject.

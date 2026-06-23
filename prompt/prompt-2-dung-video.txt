@@ -1,0 +1,15 @@
+Dựa trên ảnh tham chiếu được cung cấp, tạo video.
+
+QUAN TRỌNG:
+Tay phải luôn cầm điện thoại
+
+VIDEO STYLE:
+Photorealistic. Ultra realistic. High detail. Natural fashion showcase. Smooth cinematic camera movement. Vertical 9:16. No camera shake. No flickering. No body distortion. No clothing changes.
+
+[0–2.5 GIÂY] {{SEGMENT_1}}
+[2.5–5 GIÂY] {{SEGMENT_2}}
+[5–7.5 GIÂY] {{SEGMENT_3}}
+[7.5–10 GIÂY] {{SEGMENT_4}}
+
+KHÓA TÓC (RẤT QUAN TRỌNG)
+Giữ nguyên chính xác kiểu tóc, độ dài tóc, độ dày tóc, ngôi tóc và vị trí tóc như trong ảnh tham chiếu trong suốt toàn bộ video. Tóc phải luôn nằm phía sau vai và sau lưng giống ảnh gốc. Không được tự động chuyển tóc từ sau vai ra trước ngực hoặc từ trước ngực ra sau lưng. Không được xuất hiện hiện tượng tóc nhấp nháy, thay đổi độ dài, thay đổi độ dày, đổi vị trí hoặc thay đổi hình dạng giữa các frame. Chuyển động của tóc phải rất nhẹ và tự nhiên theo chuyển động cơ thể. Không có gió, không có quạt, không có chuyển động tóc mạnh.

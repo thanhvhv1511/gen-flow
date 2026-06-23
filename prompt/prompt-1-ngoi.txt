@@ -1,0 +1,28 @@
+THAY ĐỔI BACKGROUND VÀ GÓC QUAY NHẸ NHÀNG, KHÔNG THAY ĐỔI NGƯỜI MẪU, TRANG PHỤC, KHUÔN MẶT, KIỂU TÓC HOẶC CONCEPT TỔNG THỂ.
+
+BACKGROUND:
+• {{SELECTED_BACKGROUND}}
+POSE:
+• Người mẫu vẫn ngồi trên ghế, nhưng có thể thay đổi nhẹ vị trí ngồi hoặc xoay người khoảng 5-10 độ sang trái hoặc phải.
+• Đầu nghiêng nhẹ sang trái hoặc phải khoảng 5–10 độ.
+• Vai thả lỏng tự nhiên.
+• Thân trên: {{SELECTED_UPPER_BODY}}
+• Tư thế chân: {{SELECTED_LEG}}
+• Một tay luôn cầm điện thoại.
+• Tay còn lại: {{SELECTED_HAND}}
+• Biểu cảm tự nhiên, thoải mái, phù hợp với video thời trang lifestyle.
+
+CAMERA:
+• Giữ phối cảnh chân thực, không dùng góc quá rộng, không méo hình.
+
+FRAMING (RẤT QUAN TRỌNG):
+• Giữ nguyên khoảng cách giữa camera và người mẫu như ảnh gốc.
+• KHÔNG được zoom out, lùi camera hoặc hiển thị nhiều background hơn ảnh gốc.
+• Kích thước người mẫu trong khung hình phải giữ nguyên hoặc lớn hơn 5–10% so với ảnh gốc.
+• Người mẫu vẫn chiếm khoảng 65–80% chiều cao khung hình.
+• Ưu tiên medium close shot hoặc medium shot.
+• Nếu cần điều chỉnh khung hình, chỉ được zoom in nhẹ.
+• Tuyệt đối không thu nhỏ người mẫu để lấy thêm background.
+
+IMPORTANT:
+Keep the subject scale identical to the original image. Do not pull the camera backward, do not reveal more background than the original framing, and never make the subject appear smaller. If any adjustment is needed, slightly zoom in instead of zooming out. Straighten the waist for a natural, upright posture. Remove any unnecessary text or watermarks from the image. Hide the model's face to maintain strict focus on the clothing and overall styling.

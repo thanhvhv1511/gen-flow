@@ -1,0 +1,18 @@
+THAY ĐỔI BACKGROUND NHẸ NHÀNG, KHÔNG THAY ĐỔI TRANG PHỤC (QUẦN), KHÔNG LÀM THAY ĐỔI KIỂU DÁNG QUẦN.
+
+BACKGROUND:
+• {{SELECTED_BACKGROUND}}
+
+POSE:
+• Người mẫu đang ở tư thế đứng.
+• Tư thế chân: {{SELECTED_LEG}}
+• Tư thế tay: {{SELECTED_HAND}}
+• Tôn vinh tối đa chi tiết, nếp gấp vải và form dáng của quần.
+
+FRAMING (RẤT QUAN TRỌNG):
+• Tập trung khung hình từ phần ngực trở xuống chân. Cắt hẳn phần đầu và khuôn mặt ra khỏi khung hình.
+• KHÔNG được hiển thị khuôn mặt người mẫu. 
+• Góc máy hơi hắt nhẹ xuống để làm nổi bật tỷ lệ đôi chân và quần.
+
+IMPORTANT:
+Hide the model's face completely to maintain strict focus on the clothing. Straighten the waist for a natural posture. Remove any unnecessary text or watermarks from the image. Keep the subject scale identical to the original framing. Do not zoom out.
